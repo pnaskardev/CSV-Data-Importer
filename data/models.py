@@ -13,4 +13,4 @@ class Data(models.Model):
     low=models.FloatField()
     open=models.FloatField()
     volume=models.IntegerField()
-    instrument=models.TextField()
+    instrument=models.CharField(max_length=100)
