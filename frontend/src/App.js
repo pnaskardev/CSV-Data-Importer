@@ -49,14 +49,19 @@ const App = () => {
         .then((response) => {
           console.log(response.data);
           // Handle the response data as needed
-          showSuccessToast();
+          showSuccessToast('File has been uploaded');
           
         })
         .catch((error) => {
           console.error(error);
           // Handle any errors
-          console.log('Inside catch method')
-          showErrorToast(error);
+          console.log('Inside catch method');
+          if(error.response && error.response.data) {
+            showErrorToast(error.response.data.error || 'An error occured')
+          } else {
+            showErrorToast('An error occured')
+          }
+          // showErrorToast(error);
         });
     }
   };
@@ -112,7 +117,7 @@ const App = () => {
         <div>{progress}% Uploaded</div>
         {/* Display the JSON data in column format */}
         {jsonData && jsonData.list && jsonData.list.length > 0 && (
-          <div>
+          <div className="dataDisplay">
             <h2>JSON Data</h2>
             <table>
               <thead>

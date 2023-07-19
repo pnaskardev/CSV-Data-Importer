@@ -1,19 +1,32 @@
-/* *{
+*{
   margin: 0;
   padding: 0;
-} */
-/* .App {
+} 
+.App {
   padding-top: 30vh;
   text-align: center;
-  background-color: #282c34;
+  /* background-color: #282c34; */
   display: 'flex';
   justify-content: center;
   align-items: 'center';
   min-height: 100vh; 
-} */
+}
 
+.dataDisplay{
+  padding-top: 50px;
+  padding-left: 20%;
+  align-items: center;
+  text-align: center;
+}
 
-/* button {
+.dataDisplay th{
+  padding-left: 50px;
+}
+.dataDisplay td{
+  padding-left: 50px;
+}
+
+button {
   margin: 10px;
   padding: 10px 20px;
   font-size: 16px;
@@ -25,4 +38,4 @@
 
 button:hover {
   background-color: #45b6e5;
-} */
+}
