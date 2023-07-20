@@ -1,16 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+} 
 .App {
+  padding-top: 30vh;
   text-align: center;
-  background-color: #282c34;
+  /* background-color: #282c34; */
   display: 'flex';
   justify-content: center;
   align-items: 'center';
-  height: '200vh'; 
+  min-height: 100vh; 
 }
 
-.App-header {
-  background-color: #282c34;
-  padding: 20px;
-  color: white;
+.dataDisplay{
+  padding-top: 50px;
+  padding-left: 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.dataDisplay th{
+  padding-left: 50px;
+}
+.dataDisplay td{
+  padding-left: 50px;
 }
 
 button {
