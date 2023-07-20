@@ -88,6 +88,8 @@ Access the App at
 ![Screenshot (19)](https://github.com/pnaskardev/CSV-Data-Importer/assets/71266237/ccd04334-fd55-4191-840e-54ecce3603cd)
 ![image](https://github.com/pnaskardev/CSV-Data-Importer/assets/71266237/15edc85c-ffb3-4e1d-9d50-321fabb0d44b)
 ![Screenshot (13)](https://github.com/pnaskardev/CSV-Data-Importer/assets/71266237/1eaeb86e-031e-435b-afc0-6f0bbf3a5b3f)
+![image](https://github.com/pnaskardev/CSV-Data-Importer/assets/71266237/5589681f-cf87-430f-a4f6-0604abaf9134)
+![image](https://github.com/pnaskardev/CSV-Data-Importer/assets/71266237/bdbe5058-8158-4b4a-99f2-1bd86c06e7bc)
 
 
 
@@ -103,7 +105,7 @@ Access the App at
 #### Upload the data 
 
 ```http
-  POST /post/
+  POST /upload/
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
